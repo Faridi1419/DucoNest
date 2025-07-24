@@ -1,0 +1,111 @@
+<<<<<<< HEAD
+=======
+/*These methods are applied for all divs*/
+>>>>>>> c82dd5a (A new backgroung image added)
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+<<<<<<< HEAD
+
+=======
+/* The Whole page is using the flex display.*/
+>>>>>>> c82dd5a (A new backgroung image added)
+.main-container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-side, .right-side {
+<<<<<<< HEAD
+=======
+  /* Using flex:1 to share the space equally*/
+>>>>>>> c82dd5a (A new backgroung image added)
+  flex: 1;
+}
+
+.left-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+}
+
+.right-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e0e0;
+}
+
+.right-side img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+
+<<<<<<< HEAD
+.login-container {
+=======
+.login-container{
+  /* this class can be used for a form (collecting User DATA)*/
+>>>>>>> c82dd5a (A new backgroung image added)
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.login-container form input,
+.login-container form button {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 6px;
+}
+
+.login-container form input {
+  border: 1px solid #ccc;
+}
+
+.login-container form button {
+<<<<<<< HEAD
+=======
+  /* Class can be used for a button*/
+>>>>>>> c82dd5a (A new backgroung image added)
+  background-color: #0077cc;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-container form button:hover {
+  background-color: #005fa3;
+}
+
+.login-container p {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.login-container a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+
+

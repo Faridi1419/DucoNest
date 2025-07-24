@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Upload page</title>
+        <link rel="stylesheet" href="upload.css">
+    </head>
+
+    <script>
+  const dropArea = document.getElementById('drop-area');
+
+  dropArea.addEventListener('dragover', (e) => {
+    e.preventDefault();
+    dropArea.style.background = '#ffe2ee';
+  });
+
+  dropArea.addEventListener('dragleave', () => {
+    dropArea.style.background = '#fff6fa';
+  });
+
+  dropArea.addEventListener('drop', (e) => {
+    e.preventDefault();
+    dropArea.style.background = '#fff6fa';
+    alert("File dropped!");
+  });
+</script>
+
+    <body>
+
+    <div class="upload-container">
+    <h2>Upload Document</h2>
+        <div class="upload-info">
+  <div class="file-type">
+    <span class="icon">🖼️</span> Images  
+    <br><small>PNG, JPG, GIF</small>
+  </div>
+
+  <div class="file-type">
+    <span class="icon">📄</span> PDFs  
+    <br><small>.pdf files only</small>
+  </div>
+</div>
+
+  
+    <div class="upload-box" id="drop-area">
+      <p>📤 Drag & drop to upload<br><span>or <a href="#">browse</a></span></p>
+    </div>
+
+    <button class="upload-btn">Upload</button>
+    <p class="note">48 uploads remaining this month. Please read our <a href="#">Guidelines</a> before uploading.</p>
+  </div>
+       
+
+
+
+
+
+    </body>
+</html>
